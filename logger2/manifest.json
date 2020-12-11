@@ -1,0 +1,15 @@
+{
+    "name": "Keylogger-2",
+    "version": "1.0",
+    "description": "2 of 2 extensions in our set of innocuous looking extensions to perform keylogging",
+    "permissions": [
+        "https://cs263.io/*"
+    ],
+    "background": {
+        "scripts": [
+            "src/background.js"
+        ], 
+        "persistent": false
+    },
+    "manifest_version": 2
+}
